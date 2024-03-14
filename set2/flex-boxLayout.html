@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flexbox Example</title>
+<style>
+  .container {
+    display:block;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border: 1px solid black;
+  }
+  .container1 {
+    display:inline;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border: 1px solid black;
+  }
+  .container2 {
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border: 1px solid black;
+  }
+  .container3 {
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border: 1px solid black;
+  }
+  .container4 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border: 1px solid black;
+  }
+  .container5 {
+    display:flexbox;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border: 1px solid black;
+  }
+  .container6 {
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border: 1px solid black;
+  }
+  .item {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <span>Block</span>
+  <div class="item">Box Item 1</div>
+  <div class="item">Box Item 2</div>
+  <div class="item">Box Item 3</div>
+</div>
+<div class="container1">
+    <span>Inline</span>
+    <div class="item">Box1 Item 1</div>
+    <div class="item">Box1 Item 2</div>
+    <div class="item">Box1 Item 3</div>
+  </div>
+
+  <div class="container2">
+    <span>Inline-Block</span>
+    <div class="item">Box2 Item 1</div>
+    <div class="item">Box2 Item 2</div>
+    <div class="item">Box2 Item 3</div>
+  </div>
+
+  <div class="container3">
+    <span>Inline-Flex</span>
+    <div class="item">Box3 Item 1</div>
+    <div class="item">Box3 Item 2</div>
+    <div class="item">Box3 Item 3</div>
+  </div>
+  <div class="container4">
+    <span>Flex</span>
+    <div class="item">Box4 Item 1</div>
+    <div class="item">Box4 Item 2</div>
+    <div class="item">Box4 Item 3</div>
+  </div>
+
+  <div class="container5">
+    <span>FlexBox</span>
+    <div class="item">Box5 Item 1</div>
+    <div class="item">Box5 Item 2</div>
+    <div class="item">Box5 Item 3</div>
+  </div>
+
+  <div class="container6">
+    <span>Grid</span>
+    <div class="item">Box6 Item 1</div>
+    <div class="item">Box6 Item 2</div>
+    <div class="item">Box6 Item 3</div>
+  </div>
+</body>
+</html>
